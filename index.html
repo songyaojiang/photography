@@ -20,10 +20,11 @@ layout: default
     <!-- Main -->
     <div id="main">
         {% for album in site.albums %}
+
         <section>
             <h2> {{album.name}} </h2>
         </section>
-        <section>
+        
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
         {% if image.path contains album.name %}
@@ -35,10 +36,10 @@ layout: default
             <!--<h2></h2>
             <p></p>-->
         </article>
+        
         {% endif %}
         {% endif %}
         {% endfor %}
-        </section>
         {% endfor %}
     </div>
 
