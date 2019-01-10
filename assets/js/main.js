@@ -273,9 +273,6 @@
                         data = exifDatas[$image_img.data('name')] = getExifDataMarkup(this);
                     });
                 }
-                var $image_img = $a.children('img');
-                var data = exifDatas[$image_img.data('name')];
-                console.log(data)
                 return data !== undefined ? '<p>' + data + '</p>' : ' ';
             },
             fadeSpeed: 300,
@@ -312,8 +309,6 @@
 
         function getExifDataMarkup(img) {
             var exif = fetchExifData(img);
-            console.log(img)
-            console.log(exif)
             var template = '';
             for (var info in exif) {
                 if (info === "model") {
