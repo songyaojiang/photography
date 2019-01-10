@@ -21,8 +21,8 @@ layout: default
     <div id="main">
         <div id="test">
             <p> test here </p>
-            {% for album in albums %}
-            <p> {{ site.album.name }} </p>
+            {% for album in site.albums %}
+            <p> {{ album.name }} </p>
             {% endfor %}
         </div>
         {% for image in site.static_files %}
