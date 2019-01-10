@@ -25,8 +25,11 @@ layout: default
             <p> {{ album.name }} </p>
             {% endfor %}
         </div>
+        {% for album in site.albums %}
+        <h2> {{album.name}} </h2>
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
+        {% if image.path contains album.name %}
 
         <article class="thumb">
             <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
@@ -36,6 +39,7 @@ layout: default
             <p></p>-->
         </article>
         {% endif %}
+        {% endfor %}
         {% endfor %}
     </div>
 
