@@ -1569,7 +1569,7 @@
 			}
 
 			#header h2 {
-				font-size: 0.4em;
+				font-size: 0.5em;
 				margin-right: 2px;
 			}
 
@@ -1598,7 +1598,7 @@
 	}
 		#main .albumname {
 			flex: 0 0 100%;
-			padding-top: 50px;
+			padding-top: 30px;
 			padding-left: 20px;
 		}
 
