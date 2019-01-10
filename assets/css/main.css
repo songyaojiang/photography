@@ -1509,10 +1509,10 @@
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
 			transform: translateY(0);
-			bottom: auto;
-			height: 4em;
+			/* bottom: auto; */
+			/* height: 4em; */
 			padding: 0 1em;
-			top: 0;
+			/* top: 0; */
 		}
 
 			body.loading #header {
@@ -1550,10 +1550,10 @@
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
 			transform: translateY(0);
-			bottom: auto;
-			height: 4em;
+			/* bottom: auto; */
+			/* height: 4em; */
 			padding: 0 1em;
-			top: 0;
+			/* top: 0; */
 		}
 
 			body.loading #header {
