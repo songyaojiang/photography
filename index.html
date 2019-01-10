@@ -15,10 +15,13 @@ layout: default
         </nav>
     </header>
 
+    {% for album in albums %}
+    <p> {{ site.album.name }} </p>
+    {% endfor %}
+    
     <!-- Main -->
     <div id="main">
-        {% assign shuffled_array = site.static_files | shuffle %}
-        {% for image in shuffled_array %}
+        {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
 
         <article class="thumb">
