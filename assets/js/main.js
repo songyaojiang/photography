@@ -272,6 +272,7 @@
                         data = exifDatas[$image_img.data('name')] = getExifDataMarkup(this);
                     });
                 }
+                console.log(data)
                 return data !== undefined ? '<p>' + data + '</p>' : ' ';
             },
             fadeSpeed: 300,
