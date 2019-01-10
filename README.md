@@ -7,6 +7,7 @@
 - [x] Add favicon.ico of different sizes.
 - [x] Add follow me on blog with wordpress icon in footer.
 - [ ] Add description to each photo.
+- [ ] Add tags to each photo.
 
 **The followings are from the original README.MD file.**
 
