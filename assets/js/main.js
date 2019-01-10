@@ -267,6 +267,7 @@
                 var $image_img = $a.children('img');
                 var data = exifDatas[$image_img.data('name')];
                 if (data === undefined) {
+                    console.log("data undefined")
                     // EXIF data					
                     EXIF.getData($image_img[0], function () {
                         data = exifDatas[$image_img.data('name')] = getExifDataMarkup(this);
