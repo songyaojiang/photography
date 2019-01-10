@@ -80,7 +80,7 @@
       disableAllButtons(form);
       var url = form.action;
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', url);
+      xhr.open('post', url);
       // xhr.withCredentials = true;
       xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
       xhr.onreadystatechange = function() {
