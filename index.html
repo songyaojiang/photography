@@ -14,13 +14,17 @@ layout: default
             </ul>
         </nav>
     </header>
+    
 
-    {% for album in albums %}
-    <p> {{ site.album.name }} </p>
-    {% endfor %}
     
     <!-- Main -->
     <div id="main">
+        <div id="test">
+            <p> test here </p>
+            {% for album in albums %}
+            <p> {{ site.album.name }} </p>
+            {% endfor %}
+        </div>
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
 
