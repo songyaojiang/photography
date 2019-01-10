@@ -8,6 +8,7 @@
 - [x] Add follow me on blog with wordpress icon in footer.
 - [ ] Add description to each photo.
 - [ ] Add tags to each photo.
+- [ ] Add videos capability to the website.
 
 **The followings are from the original README.MD file.**
 
