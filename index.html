@@ -19,14 +19,9 @@ layout: default
     
     <!-- Main -->
     <div id="main">
-        <div id="test">
-            <p> test here </p>
-            {% for album in site.albums %}
-            <p> {{ album.name }} </p>
-            {% endfor %}
-        </div>
         {% for album in site.albums %}
         <h2> {{album.name}} </h2>
+        <div>
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
         {% if image.path contains album.name %}
@@ -40,6 +35,7 @@ layout: default
         </article>
         {% endif %}
         {% endfor %}
+        </div>
         {% endfor %}
     </div>
 
