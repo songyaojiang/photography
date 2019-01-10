@@ -2,9 +2,10 @@
 **This repository is forked and modified From [photography.rampatra.com](http://photography.rampatra.com). I made the following changes based on the original reporsitory.**
 - [x] Replaced the photos with my own photos.
 - [x] Grouped the photos by albums.
-- [x] Add albums shortcuts to header.
+- [x] Add albums shortcuts in header.
 - [x] Enabled contact form submission.
 - [x] Add favicon.ico of different sizes.
+- [x] Add follow me on blog with wordpress icon in footer.
 - [ ] Add description to each photo.
 
 **The followings are from the original README.MD file.**
