@@ -310,6 +310,7 @@
 
         function getExifDataMarkup(img) {
             var exif = fetchExifData(img);
+            console.log(exif)
             var template = '';
             for (var info in exif) {
                 if (info === "model") {
