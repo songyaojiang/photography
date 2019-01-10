@@ -1531,7 +1531,7 @@
 	}
 		#main .albumname {
 			flex: 0 0 100%;
-			padding-top: 50px;
+			padding-top: 30px;
 		}
 		#main .thumb {
 			-moz-transition: opacity 1.25s ease-in-out;
