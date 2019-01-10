@@ -7,7 +7,9 @@ layout: default
     <!-- Header -->
     <header id="header">
         <h1><a href="index.html"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</a></h1>
-        
+        {% for album in site.albums %}
+        <h2><a href="#{{album.name}}"> {{album.name}} </a></h2>
+        {% endfor %}
         <nav>
             <ul>
                 <li><a href="#footer" class="icon fa-info-circle">About</a></li>
@@ -22,7 +24,7 @@ layout: default
         {% for album in site.albums %}
 
         <div class="albumname">
-            <h2> {{album.name}} </h2>
+            <a name="{{album.name}}"><h2> {{album.name}} </h2></a>
         </div>
       
         {% for image in site.static_files %}

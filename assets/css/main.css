@@ -1420,7 +1420,7 @@
 			display: inline-block;
 			font-size: 1em;
 			line-height: 1;
-			margin: 0;
+			margin-right: 50px;
 			vertical-align: middle;
 		}
 
@@ -1430,6 +1430,24 @@
 			}
 
 				#header h1 a:hover {
+					color: inherit !important;
+				}
+
+		#header h2 {
+			color: #a0a0a1;
+			display: inline-block;
+			font-size: 1em;
+			line-height: 1;
+			margin-right: 10px;
+			vertical-align: middle;
+		}
+
+			#header h2 a {
+				border: 0;
+				color: inherit;
+			}
+
+				#header h2 a:hover {
 					color: inherit !important;
 				}
 
@@ -1503,6 +1521,12 @@
 
 			#header h1 {
 				font-size: 0.9em;
+				margin-right: 50px;
+			}
+
+			#header h2 {
+				font-size: 0.9em;
+				margin-right: 10px;
 			}
 
 			#header nav > ul > li a {
