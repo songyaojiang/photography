@@ -1,3 +1,14 @@
+# A Photography Website Modified From rampatra/photography
+- [x] Replaced the photos with my own photos.
+- [x] Grouped the photos by albums.
+- [x] Add albums shortcuts to header.
+- [x] Enabled contact form submission.
+- [x] Add favicon.ico of different sizes.
+- [ ] Add description to each photo.
+
+# The Followings Are Original README.MD
+================
+
 # Photography
 A jekyll website for photographers
 
