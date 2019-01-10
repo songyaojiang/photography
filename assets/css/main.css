@@ -1510,7 +1510,7 @@
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			bottom: auto;
-			height: 8em;
+			height: 4em;
 			padding: 0 1em;
 			top: 0;
 		}
@@ -1524,7 +1524,7 @@
 
 			#header h1 {
 				font-size: 0.8em;
-				margin-right: 20px;
+				margin-right: 10px;
 			}
 
 			#header h2 {
