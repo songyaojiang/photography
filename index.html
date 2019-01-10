@@ -18,14 +18,13 @@ layout: default
 
     
     <!-- Main -->
-    {% for album in site.albums %}
-
-    <div width="100%" min-width="100%">
-        <h2> {{album.name}} </h2>
-    </div>
-
     <div id="main">
+        {% for album in site.albums %}
 
+        <div width="100%" min-width="100%">
+            <h2> {{album.name}} </h2>
+        </div>
+      
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
         {% if image.path contains album.name %}
