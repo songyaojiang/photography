@@ -273,6 +273,8 @@
                         data = exifDatas[$image_img.data('name')] = getExifDataMarkup(this);
                     });
                 }
+                var $image_img = $a.children('img');
+                var data = exifDatas[$image_img.data('name')];
                 console.log(data)
                 return data !== undefined ? '<p>' + data + '</p>' : ' ';
             },
