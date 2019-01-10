@@ -1,5 +1,5 @@
 # A Photography Website
-### This repository is forked and modified From [photography.rampatra.com](http://photography.rampatra.com). I made the following changes based on the original reporsitory.
+**This repository is forked and modified From [photography.rampatra.com](http://photography.rampatra.com). I made the following changes based on the original reporsitory.**
 - [x] Replaced the photos with my own photos.
 - [x] Grouped the photos by albums.
 - [x] Add albums shortcuts to header.
@@ -7,8 +7,9 @@
 - [x] Add favicon.ico of different sizes.
 - [ ] Add description to each photo.
 
-### The Followings Are Original README.MD
-================
+**The followings are from the original README.MD file.**
+
+***
 
 # Photography
 A jekyll website for photographers
