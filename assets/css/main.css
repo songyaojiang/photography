@@ -1510,7 +1510,7 @@
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			bottom: auto;
-			height: 4em;
+			height: 8em;
 			padding: 0 1em;
 			top: 0;
 		}
@@ -1523,17 +1523,17 @@
 			}
 
 			#header h1 {
-				font-size: 0.9em;
-				margin-right: 50px;
+				font-size: 0.8em;
+				margin-right: 20px;
 			}
 
 			#header h2 {
-				font-size: 0.9em;
-				margin-right: 10px;
+				font-size: 0.8em;
+				margin-right: 5px;
 			}
 
 			#header nav > ul > li a {
-				font-size: 0.9em;
+				font-size: 0.7em;
 				padding: 0 1.15em;
 			}
 
