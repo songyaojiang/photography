@@ -1447,7 +1447,7 @@
 				color: inherit;
 			}
 				#header h2 a::before{
-					padding-right: 5px;
+					padding-right: 1px;
 					font-family: "FontAwesome";
 				}
 				#header h2 a:hover {
