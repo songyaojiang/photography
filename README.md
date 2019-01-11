@@ -1,11 +1,12 @@
 # A Photography Website
 **This repository is forked and modified From [photography.rampatra.com](http://photography.rampatra.com). I made the following changes based on the original reporsitory.**
-- [x] Replaced the photos with my own photos.
-- [x] Grouped the photos by albums.
+- [x] Replace the photos with my own photos.
+- [x] Group the photos by albums.
 - [x] Add albums shortcuts in header.
-- [x] Enabled contact form submission.
+- [x] Enable contact form submission.
 - [x] Add favicon.ico of different sizes.
 - [x] Add follow me on blog with wordpress icon in footer.
+- [x] Update Google Analytics to the newest Universal tag.
 - [ ] Add description to each photo.
 - [ ] Add tags to each photo.
 - [ ] Add videos capability to the website.

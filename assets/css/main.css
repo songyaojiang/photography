@@ -1515,12 +1515,12 @@
 			/* top: 0; */
 		}
 
-			body.loading #header {
+			/* body.loading #header {
 				-moz-transform: translateY(-3.4em);
 				-webkit-transform: translateY(-3.4em);
 				-ms-transform: translateY(-3.4em);
 				transform: translateY(-3.4em);
-			}
+			} */
 
 			#header h1 {
 				font-size: 0.8em;
@@ -1556,12 +1556,12 @@
 			/* top: 0; */
 		}
 
-			body.loading #header {
+			/* body.loading #header {
 				-moz-transform: translateY(-3.4em);
 				-webkit-transform: translateY(-3.4em);
 				-ms-transform: translateY(-3.4em);
 				transform: translateY(-3.4em);
-			}
+			} */
 
 			#header h1 {
 				font-size: 0.6em;
