@@ -322,6 +322,9 @@
                 if (info === "iso") {
                     template += '<i class="fa fa-info-circle" aria-hidden="true"></i> ' + exif["iso"] + '&nbsp;&nbsp;';
                 }
+                if (info === "focal_length") {
+                    template += '<i class="fab fa-facebook-f" aria-hidden="true"></i> ' + exif["focal_length"] + '&nbsp;&nbsp;';
+                }
             }
             return template;
         }
@@ -343,6 +346,10 @@
 
             if (EXIF.getTag(img, "ISOSpeedRatings") !== undefined) {
                 exifData.iso = EXIF.getTag(img, "ISOSpeedRatings");
+            }
+
+            if (EXIF.getTag(img, "FocalLength") !== undefined) {
+                exifData.focal_length = EXIF.getTag(img, "FocalLength");
             }
             return exifData;
         }
