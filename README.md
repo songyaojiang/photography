@@ -7,6 +7,7 @@
 - [x] Add favicon.ico of different sizes.
 - [x] Add follow me on blog with wordpress icon in footer.
 - [x] Update Google Analytics to the newest Universal tag.
+- [x] Add focal length to the EXIF data displayed.
 - [ ] Add description to each photo.
 - [ ] Add tags to each photo.
 - [ ] Add videos capability to the website.
