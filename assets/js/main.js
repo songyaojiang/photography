@@ -323,7 +323,7 @@
                     template += '<i class="fa fa-info-circle" aria-hidden="true"></i> ' + exif["iso"] + '&nbsp;&nbsp;';
                 }
                 if (info === "focal_length") {
-                    template += '<i class="fab fa-facebook-f" aria-hidden="true"></i> ' + exif["focal_length"] + '&nbsp;&nbsp;';
+                    template += '<i class="fa fa-facebook" aria-hidden="true"></i> ' + exif["focal_length"] + '&nbsp;&nbsp;';
                 }
             }
             return template;
